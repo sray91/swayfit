@@ -14,13 +14,13 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main className="flex flex-col flex-1 min-h-screen justify-center items-center p-16 mx-auto">
+        <main className="flex flex-col flex-1 min-h-screen justify-center items-center">
           <span>
             <Image src="/swayfit_logo.svg" alt="SwayFit Logo" width={653} height={400} />
           </span>
-          <div>
-            <p>Address: {address}</p>
-            <p>ChainId: {chainId}</p>
+          <div className="inline-grid gap-8 justify-center items-center p-16">
+            <p className="text-white font-bold text-lg bg-purple p-8 rounded-lg items-center justify-center">Address: {address}</p>
+            <p className="text-white font-bold text-lg bg-purple p-8 rounded-lg items-center justify-center">ChainId: {chainId}</p>
           </div>
         </main>
       </div>
