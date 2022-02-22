@@ -15,6 +15,13 @@ export default function Home() {
       <main className="flex flex-1 flex-col justify-center content-center min-h-screen p-16 bg-orange">
         <Image src="/logo.svg" alt="SwayFit Logo" width={683} height={400} />
       </main>
+      <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-100">
+        <button
+          className="px-4 py-2 rounded-md bg-purple-600 cursor-pointer hover:bg-purple-500 text-xl font-semibold duration-100 text-white"
+        >
+          Connect Wallet
+        </button>
+    </div>
     </div>
   )
 }
