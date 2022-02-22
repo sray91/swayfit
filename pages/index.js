@@ -14,7 +14,7 @@ export default function Home() {
         <span>
             <Image src="/swayfit_logo.svg" alt="SwayFit Logo" width={653} height={400} />
         </span>
-        <button className="px-2 py-2 rounded-md bg-purple cursor-pointer hover:bg-purple text-white text-xl font-semibold duration-100">
+        <button className="px-3 py-3 rounded-md bg-purple cursor-pointer hover:bg-purple text-white text-lg font-semibold duration-100">
           Connect Wallet
         </button>
       </main>
