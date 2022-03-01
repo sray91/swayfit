@@ -39,7 +39,7 @@ export default function Home() {
               <Image src="/swayfit_logo.svg" alt="SwayFit Logo" width={653} height={400} />
           </span>
           <button onClick={ () => connectWallet("injected")}
-            className="px-4 py-2 rounded-md bg-purple cursor-pointer hover:bg-purple text-white text-lg font-semibold duration-100">
+            className="h-11 border-0 w-auto px-40 rounded-md cursor-pointer text-base font-bold text-white bg-gradient-to-r from-lime-400 to-sky-800">
             Connect Wallet
           </button>
         </main>
